@@ -1,0 +1,6 @@
+Features to add
+1. Population of the state
+2. Language 
+3. Other Dialects
+4. Styling. 
+Some visual effects possible on the page. 

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="main_heading">India Political Map</h1>
+    <div id="floatContainer">
+        <!-- <div><img id="indiaFlag" src="/src/india-flag.png"></div> -->
+        <div id="mapContainer">
+            <img id="indiaImg" src="/src/India_Map4.png" >
+            <svg id="svgBox" ViewBox="0 0 100 90">
+                <!-- <image height="20" width="30" href="src/india-flag.png" x="60" y="5" /> -->
+                <rect id="telengana" x="40" y="60"></rect>
+                <text id="telengana_text" x="37" y="64"></text>
+                <rect id="andhra" x="40" y="69"></rect>
+                <text id="andhra_text" x="45" y="70"></text>
+                <rect id="rajasthan" x="20" y="35"></rect>
+                <text id="rajasthan_text" x="23" y="36"></text>
+                <rect id="tamilnadu" x="35" y="80"></rect>
+                <text id="tamilnadu_text" x="35" y="84"></text>
+                <rect id="kerala" x="27" y="80"></rect>
+                <text id="kerala_text" x="21" y="80"></text>
+                <rect id="karnataka" x="26" y="69"></rect>
+                <text id="karnataka_text" x="20" y="73"></text>
+                <rect id="maharastra" x="25" y="55"></rect>
+                <text id="maharastra_text" x="25" y="60"></text>
+                <rect id="gujarat" x="10" y="45"></rect>
+                <text id="gujarat_text" x="8" y="50"></text>
+                <rect id="mp" x="35" y="45"></rect>
+                <text id="mp_text" x="35" y="49"></text>
+                <rect id="up" x="45" y="35"></rect>
+                <text id="up_text" x="45" y="39"></text>
+                <rect id="wb" x="69" y="44"></rect>
+                <text id="wb_text" x="72" y="47"></text>
+                <rect id="odisha" x="58" y="52"></rect>
+                <text id="odisha_text" x="62" y="55"></text>
+                <rect id="bihar" x="60" y="37"></rect>
+                <text id="bihar_text" x="60" y="36"></text>
+                <rect id="jarkhand" x="60" y="44"></rect>
+                <text id="jarkhand_text" x="60" y="48"></text>
+                <rect id="chhatish" x="49" y="50"></rect>
+                <text id="chhatish_text" x="48" y="54"></text>
+                <circle id="puducherry" r="0.6" cx="42" cy="78" />
+                <text id="puducherry_text" x="45" y="80"></text>
+                <rect id="punjab" x="25" y="22"></rect>
+                <text id="punjab_text" x="28" y="25"></text>
+                <rect id="mizoram" x="87" y="43"></rect>
+                <text id="mizoram_text" x="89" y="46"></text>
+                <rect id="haryana" x="29" y="27"></rect>
+                <text id="haryana_text" x="33" y="28"></text>
+                <rect id="uttarakhand" x="39" y="25"></rect>
+                <text id="uttarakhand_text" x="43" y="28"></text>
+                <rect id="himachal" x="32" y="20"></rect>
+                <text id="himachal_text" x="33" y="18"></text>
+                <circle id="jk" r="0.6" cx="24" cy="15" />
+                <text id="jk_text" x="25" y="15"></text>
+                <circle id="chandigarh" r="0.6" cx="32" cy="23" />
+                <text id="chandigarh_text" x="30" y="27"></text>
+                <rect id="assam" x="86" y="34"></rect>
+                <text id="assam_text" x="83" y="33"></text>
+                <rect id="goa" x="18" y="67"></rect>
+                <text id="goa_text" x="20" y="72"></text>
+                <rect id="meghalaya" x="79" y="37"></rect>
+                <text id="meghalaya_text" x="73" y="41"></text>
+                <rect id="sikkim" x="71" y="32"></rect>
+                <text id="sikkim_text" x="69" y="29"></text>
+                <rect id="arunachal" x="88" y="29"></rect>
+                <text id="arunachal_text" x="75" y="27"></text>
+                <rect id="nagaland" x="92" y="34"></rect>
+                <text id="nagaland_text" x="88" y="32"></text>
+                <rect id="manipur" x="90" y="39"></rect>
+                <text id="manipur_text" x="89" y="43"></text>
+                <rect id="tripura" x="83" y="42"></rect>
+                <text id="tripura_text" x="82" y="46"></text>
+                <text id="ladakh_text" x="25" y="10"></text>
+                <circle id="ladakh" r="0.6" cx="30" cy="11" />
+                <text id="delhi_text" x="33" y="32"></text>
+                <text id="delhi_text" x="33" y="32"></text>
+                <circle id="delhi" r="0.6" cx="33" cy="29" />
+                <text id="lakshadweep_text" x="5" y="84"></text>
+                <circle id="lakshadweep" r="0.6" cx="12" cy="80" />
+                <text id="andaman_text" x="70" y="82"></text>
+                <circle id="andaman" r="0.6" cx="90" cy="79" />
+                <text id="diu_text" x="2" y="56"></text>
+                <circle id="diu" r="0.6" cx="10" cy="52" />
+                <text id="dadra_text" x="10" y="50"></text>
+                <circle id="dadra" r="0.6" cx="16" cy="52" />
+                <text id="daman_text" x="10" y="57"></text>
+                <circle id="daman" r="0.6" cx="16" cy="54" />
+            </svg>
+        </div>
+
+        <div id="infoBox">
+            <div id = "heading">
+                <h1>State Information</h1>
+            </div>
+            <div id="infotext">
+                <label id="stateName" for="">State :</label>
+                <br>
+                <br>
+                <label id="stateCapital" for="">Capital :</label>
+                <br>
+                <br>
+                <label id="stateLanguage" for="">Language :</label>
+                <br>
+                <br>
+                <label id="stateArea" for="">Area(sq Km) :</label>
+            </div>
+            <div id = "symHeading">
+                <h2>State Symbol</h2>
+            </div>            
+            <div id ="symbolContainer">
+               <img  id = "symbolPic" src="/src/StateSymbols/Seal_of_Assam.svg" alt="" srcset="">
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
