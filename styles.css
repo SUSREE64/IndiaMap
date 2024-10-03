@@ -83,7 +83,7 @@
   font-optical-sizing: auto;
   font-weight:600;
   font-style: italic;
-  font-size: 18px;
+  /* font-size: 18px; */
   font-variation-settings:
     "wdth" 100,
     "GRAD" 0;
