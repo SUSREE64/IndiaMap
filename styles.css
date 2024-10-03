@@ -80,7 +80,7 @@
 }
 #infotext{
   font-family: "Roboto Serif", serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   font-weight:600;
   font-style: italic;
   /* font-size: 18px; */
@@ -98,14 +98,4 @@
 body{
     background-color: #78D5D7;
 }
-#symbolContainer{
-    /* margin-top: 20px; */
-    background-color: #63D2FF;
-    width : 100%;
-    border-radius: 20px;
-}
-#symbolPic {
-    margin-top: 5px; 
-    width : 90%;
-    border-radius: 70px;
-}
+
