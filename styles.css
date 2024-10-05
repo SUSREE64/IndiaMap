@@ -1,7 +1,7 @@
 /* This is script file*/ 
 #mapContainer{
-    width:70vw;
-    height:10%;
+    width:60vw;
+    /* height:10%; */
     margin-left: 30px;
     text-align: center;
     /* border: 2px black solid; */
@@ -23,13 +23,12 @@
     /* background-color: rgb(98, 0, 255); */
 }
 
-#infoBox{
+#infoContainer{
+    width:40vw;
     margin-left:20px;
     float:left;
     position:relative;
     text-align: center;
-    width:30vw;
-    height:60%;
     margin-right: 20px;
     padding-bottom: 20px;
     border:2px solid black ;
@@ -37,9 +36,8 @@
     border-radius: 20px;
     
 }
-#floatContainer {
-    width:70dvw;
-    /* height: 60%; */
+#mainContainer {
+    width:70vw;
     /* border: 3px solid red; */
     margin: auto; 
     justify-content: center;
@@ -53,6 +51,7 @@
     margin-top: 10px;
     font-family: "Roboto Serif", serif;
 }
+
 #myCanvas{
     /* background-color: blueviolet; */
     width: 100%;
@@ -79,23 +78,40 @@
     fill:blue;
 }
 #infotext{
-  font-family: "Roboto Serif", serif;
-  /* font-optical-sizing: auto; */
-  font-weight:600;
-  font-style: italic;
-  /* font-size: 18px; */
-  font-variation-settings:
-    "wdth" 100,
-    "GRAD" 0;
-}
-#heading{
-    
-    font-family: "Roboto Serif", serif;
-    font-weight:600;
-    font-optical-sizing: auto;
+  
+    text-align: center;
     font-style: italic;
+    font-weight: 900;
+    font-size : 20px
+   
+  }
+#heading{
+    font-family: "Roboto Serif", serif;
+    font-weight:800;
+    font-size: large;
+    font-style: italic;
+    color: #042A2B;
+    
 }
 body{
     background-color: #78D5D7;
 }
+#symbolContainer{
+    /* margin-top: 20px; */
+    /* background-color: #8763ff; */
+    width:330px;
+    height:190px;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    align-content: center;
+    
+}
 
+#symbolPic {
+    width:320px;
+    height : 180px;
+    font-display: flex;
+    margin:auto;
+    
+    } 
