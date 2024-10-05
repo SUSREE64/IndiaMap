@@ -312,61 +312,7 @@ for (let i = 0; i < ut_el.length; i++) {
   ut_el[i].addEventListener("mouseenter", () => {ut_textObj.innerHTML = ut_name; });
   ut_el[i].addEventListener("mouseleave", () => {ut_textObj.innerHTML = "";  });
 }
-// const score_el = document.getElementById("Score");
-// const guessState_el = document.getElementById("guessState");
-// const button_el = document.getElementById("gamebutton");
-// const telengana_el = document.getElementById("telengana");
-// const telenganatext_el = document.getElementById("telengana_text");
-// const andhra_el = document.getElementById("andhra");
-// const andhratext_el = document.getElementById("andhra_text");
-// const tamilnadu_el = document.getElementById("tamilnadu");
-// const tamilnadutext_el = document.getElementById("tamilnadu_text");
-// const kerala_el = document.getElementById("kerala");
-// const keralatext_el = document.getElementById("kerala_text");
-// const rajasthan_el = document.getElementById("rajasthan");
-// const rajasthantext_el = document.getElementById("rajasthan_text");
-// const karnataka_el = document.getElementById("karnataka");
-// const karnatakatext_el = document.getElementById("karnataka_text");
-// const maharastra_el = document.getElementById("maharastra");
-// const maharastratext_el = document.getElementById("maharastra_text");
-// const gujarat_el = document.getElementById("gujarat");
-// const gujarattext_el = document.getElementById("gujarat_text");
-// const mp_el = document.getElementById("mp");
-// const mptext_el = document.getElementById("mp_text");
-// const up_el = document.getElementById("up");
-// const uptext_el = document.getElementById("up_text");
-// const wb_el = document.getElementById("wb");
-// const wbtext_el = document.getElementById("wb_text");
-// const odisha_el = document.getElementById("odisha");
-// const odishatext_el = document.getElementById("odisha_text");
-// const bihar_el = document.getElementById("bihar");
-// const bihartext_el = document.getElementById("bihar_text");
-// const jarkhand_el = document.getElementById("jarkhand");
-// const jarkhandtext_el = document.getElementById("jarkhand_text");
-// const chhattish_el = document.getElementById("chhatish");
-// const chhattishtext_el = document.getElementById("chhatish_text");
-// const puducherry_el = document.getElementById("puducherry");
-// const puducherrytext_el = document.getElementById("puducherry_text");
-// const mizoram_el = document.getElementById("mizoram");
-// const mizoramtext_el = document.getElementById("mizoram_text");
-// const punjab_el = document.getElementById("punjab");
-// const punjabtext_el = document.getElementById("punjab_text");
-// const haryana_el = document.getElementById("haryana");
-// const haryanaext_el = document.getElementById("haryana_text");
-// const uttarakhand_el = document.getElementById("uttarakhand");
-// const uttarakhandtext_el = document.getElementById("uttarakhand_text");
-// const himachal_el = document.getElementById("himachal");
-// const himachaltext_el = document.getElementById("himachal_text");
-// const jk_el = document.getElementById("jk");
-// const jktext_el = document.getElementById("jk_text");
-// const chandigarh_el = document.getElementById("chandigarh");
-// const chandigarhtext_el = document.getElementById("chandigarh_text");
-// const assam_el = document.getElementById("assam");
-// const assamtext_el = document.getElementById("assam_text");
-// const goa_el = document.getElementById("goa");
-// const goaext_el = document.getElementById("goa_text");
-// // const meghalaya_el = document.getElementById("meghalaya");
-// // const meghalayatext_el = document.getElementById("meghalaya_text");
+
 
 // Functions
 
