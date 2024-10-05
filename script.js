@@ -376,7 +376,7 @@ function getDetail(stateid) {
   stateCapital_el.innerHTML = `Capital : ${StateData[stateid].Capital}`;
   stateLanguage_el.innerHTML = `Language : ${StateData[stateid].Language}`;
   stateArea_el.innerHTML = `Area(sq Km) : ${StateData[stateid].Area}`;
-  const path = "-indiamap/src/StateSymbols";
+  const path = "/src/StateSymbols";
   stateSymbol_el.src = `${path}/${StateData[stateid].symbol}`;
 
 }
