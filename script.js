@@ -322,7 +322,7 @@ function getDetail(stateid) {
   stateCapital_el.innerHTML = `Capital : ${StateData[stateid].Capital}`;
   stateLanguage_el.innerHTML = `Language : ${StateData[stateid].Language}`;
   stateArea_el.innerHTML = `Area(sq Km) : ${StateData[stateid].Area}`;
-  stateSymbol_el.src = `/src/StateSymbols/${StateData[stateid].symbol}`;
+  stateSymbol_el.src = `./src/StateSymbols/${StateData[stateid].symbol}`;
 
 }
 
